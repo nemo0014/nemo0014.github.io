@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Google</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-items">
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link">Google search</a>
+        </li>
+        <li class="nav-item">
+          <a href="image.html" class="nav-link">Image</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="main-advanced">
+      <h2 class="heading">Advanced Search</h2>
+      <form class="form-advanced" action="https://www.google.com/search">
+        <h3 class="form-advanced-heading">Find pages with...</h3>
+        <div class="form-advanced-item">
+          <label for="allWords">all these words:</label><input id=allWords"
+          autocomplete="off" type="text" name="as_q">
+        </div>
+        <div class="form-advanced-item">
+          <label for="thisExact">this exact word or phrase:</label><input
+          autocomplete="off" id=thisExact" type="text" name="as_epq">
+        </div>
+        <div class="form-advanced-item">
+          <label for="anyOf">any of these words:</label><input
+          autocomplete="off" id=anyOf" type="text" name="as_oq">
+        </div>
+        <div class="form-advanced-item">
+          <label for="noneOf">all these words</label><input
+          autocomplete="off"id=noneOf" type="text" name="as_eq">
+        </div>
+        <div class="form-advanced-item sumbit-align">
+          <button type="submit" id="btn-advanced" class="btn">
+            Advanced Search
+          </button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <ul class="foot-items">
+        <div class="f-first">
+          <li class="foot-item"><a href="#" class="foot-link"> About</a></li>
+          <li class="foot-item">
+            <a href="#" class="foot-link"> Advertising</a>
+          </li>
+          <li class="foot-item"><a href="#" class="foot-link"> Business</a></li>
+          <li class="foot-item">
+            <a href="#" class="foot-link"> How Search works</a>
+          </li>
+        </div>
+        <div class="f-second">
+          <li class="foot-item foot-divider">
+            <a href="#" class="foot-link"> Privacy</a>
+          </li>
+          <li class="foot-item"><a href="#" class="foot-link"> Terms</a></li>
+          <li class="foot-item"><a href="#" class="foot-link"> Settings</a></li>
+        </div>
+      </ul>
+    </footer>
+  </body>
+</html>
